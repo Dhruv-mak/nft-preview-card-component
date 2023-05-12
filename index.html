@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-color: hsl(217, 54%, 11%);" class="flex justify-center h-screen flex-col items-center">
+  <main style="background-color: hsl(216, 50%, 16%);" class="flex flex-col rounded-2xl p-6 mx-6 w-[325px]">
+    <section>
+      <img src="./images/image-equilibrium.jpg" alt="Equilibrium NFT" class="min-w-0 min-h-0 rounded-2xl"/>
+    </section>
+    <section>
+      <h1 class="text-white my-3 text-2xl font-bold tracking-wider">Equilibrium #3429</h1>
+      <p style="color:hsl(215, 51%, 70%)" class="my-3">Our Equilibrium collection promotes balance and calm.</p>
+    </section>
+
+    <section class="flex flex-row justify-between items-center my-1">
+      <div> 
+        <img src="./images/icon-ethereum.svg" alt="ethereum-icon" class="inline -mt-1 h-4"> <p style="color: aqua;" class="inline font-semibold tracking-wide">0.041 ETH</p>
+      </div>
+      <div>
+        <img src="./images/icon-clock.svg" alt="clock-icon" class="inline"> <p style="color: hsl(215, 51%, 70%);" class="inline">3 days left</p> 
+      </div>
+    </section>
+    <hr class="my-4">
+    <section  class="flex items-center mt">
+      <img src="./images/image-avatar.png" alt="" class="inline h-8 mr-4"> <p style="color:white" class="inline"><span style="color:hsl(215, 51%, 70%);">Creation of</span> Jules Wyvern</p>
+    </section>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Niklaus M</a>.
+  </div>
+</body>
+</html>
