@@ -23,8 +23,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Dhruv-mak/nft-preview-component)
-- Live Site URL: [Live Site](https://dhruv-mak.github.io/nft-preview-component/)
+- Solution URL: [Solution](https://github.com/Dhruv-mak/nft-preview-card-component)
+- Live Site URL: [Live Site](https://dhruv-mak.github.io/nft-preview-card-component/)
 
 ## My process
 
